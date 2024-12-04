@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <header class="bg-light py-3">
+        <div class="container text-center">
+            <h1 class="display-4">Noor Ata✨</h1>
+            <p class="lead">Web Developer | Frontend Trainer at Asal Technology</p>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#aboutSection">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#projectsSection">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#contactSection">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    
+    <section id="aboutSection" class="collapse">
+        <div class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">About Me</h2>
+                <p class="text-muted">
+                    I am a passionate <strong>computer engineering student</strong> in my final year at university and currently working as a 
+                    <strong>Frontend Trainer at Asal Technology</strong>. With a strong focus on <strong>web</strong> and 
+                    <strong>mobile development</strong>, I am skilled in technologies like <strong>Node.js</strong>, <strong>Flutter</strong>, and 
+                    <strong>MySQL</strong>. I enjoy creating <em>innovative solutions</em> that make a difference. My interests include building 
+                    <strong>scalable applications</strong>, exploring new technologies, and contributing to <em>open-source projects</em>.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="projectsSection" class="collapse">
+        <div class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">My Projects</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://picsum.photos/id/82/300" class="card-img-top" alt="Plant Nursery Project Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Plant Nursery Management System</h5>
+                                <p class="card-text">A database project built using JavaFX and SQL to manage a plant nursery.</p>
+                                <a href="https://www.linkedin.com/posts/noor-ata_database-programming-activity-7066130877902184448-VjQv?utm_source=share&utm_medium=member_desktop" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://picsum.photos/id/454/300" class="card-img-top" alt="Nail Polish Robot Project">
+                            <div class="card-body">
+                                <h5 class="card-title">Nail Polish Robot</h5>
+                                <p class="card-text">A fully automated system for applying nail polish effortlessly.</p>
+                                <a href="https://www.linkedin.com/posts/noor-ata_hardware-hardwareproject-engineering-activity-7239735572053807105-l14D?utm_source=share&utm_medium=member_desktop" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://picsum.photos/id/478/300" class="card-img-top" alt="Thirty Lights Project Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Thirty Lights</h5>
+                                <p class="card-text">An interactive tool for students to memorize the Quran and learn Tajweed.</p>
+                                <a href="https://drive.google.com/file/d/1GZ3h_k_2cH_Rm88L7LHUoVA5a-suNHuN/view" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contactSection" class="collapse">
+        <div class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Contact Me</h2>
+                <form class="needs-validation" validate>
+                    <!-- Name Field -->
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        <div class="invalid-feedback">
+                            Please provide your name.
+                        </div>
+                    </div>
+                    
+                    <!-- Email Field -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid email.
+                        </div>
+                    </div>
+                    
+                    <!-- Phone Number Field -->
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number:</label>
+                        <input type="text" class="form-control" id="phone" placeholder="059 111 1111" required>
+                        <div class="invalid-feedback">
+                            Please provide your phone number.
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message:</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message" required></textarea>
+                        <div class="invalid-feedback">
+                            Please provide a message.
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label class="form-label">Preferred Contact Method:</label>
+                        <div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="contactMethod" id="contactEmail" value="Email" required>
+                                <label class="form-check-label" for="contactEmail">Email</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="contactMethod" id="contactPhone" value="Phone" required>
+                                <label class="form-check-label" for="contactPhone">Phone</label>
+                            </div>
+                        </div>
+                        <div class="invalid-feedback">
+                            Please select a preferred contact method.
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="uploadFile" class="form-label">Upload File:</label>
+                        <input class="form-control" type="file" id="uploadFile">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <footer class="py-3 bg-dark text-white">
+        <div class="container text-center">
+            <p>&copy; 2024 Noor Ata. All rights reserved.</p>
+            <p>
+                Designed and developed by Noor Ata. | 
+                <a href="https://www.linkedin.com/in/noor-ata/" target="_blank" rel="noopener noreferrer" class="text-info">Visit my LinkedIn</a>
+            </p>
+            <div class="d-flex justify-content-center mt-3">
+                <a href="https://www.facebook.com" target="_blank" class="text-white mx-2">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="text-white mx-2">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="text-white mx-2">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" class="text-white mx-2">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
